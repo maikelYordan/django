@@ -77,8 +77,11 @@ WSGI_APPLICATION = 'aprendiendo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST':'maikelYordan.mysql.pythonanywhere-services.com',
+        'USER':'maikelYordan',
+        'PASSW': 'Puppy32017',
+        'NAME': 'maikelYordan$blog',
     }
 }
 
