@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'aprendiendo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST':'maikelYordan.mysql.pythonanywhere-services.com',
+        'HOST':'http://maikelYordan.mysql.pythonanywhere-services.com',
         'USER':'maikelYordan',
         'PASSWORD':'Puppy32017',
         'NAME': 'maikelYordan$blog',
